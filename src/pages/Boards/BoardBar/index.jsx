@@ -14,4 +14,8 @@ function BoardBar() {
   )
 }
 
+
 export default BoardBar
+
+export default BoardBar
+
