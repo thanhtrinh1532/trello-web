@@ -1,18 +1,29 @@
 import { experimental_extendTheme as extendTheme } from '@mui/material/styles';
 import { cyan, deepOrange, orange, teal } from '@mui/material/colors'
+
 import { BorderColor } from '@mui/icons-material';
+
+
 
 // Create a theme instance.
 const theme = extendTheme({
   trello: {
+
       appBarHeight: '55px',
+
+      appBarHeight: '48px',
+
       boardBarHeight: '58px'
   },
   colorSchemes: {
     light: {
       palette: {
         primary: teal,
+
         secondary: deepOrange,
+
+        secondary: deepOrange
+
       }
     },
     dark: {
@@ -21,6 +32,7 @@ const theme = extendTheme({
         secondary: orange
       }
     }
+
   },
   components: {
     MuiCssBaseLine:  {
@@ -80,6 +92,9 @@ const theme = extendTheme({
       },
     },
   },
+
+  }
+
 })
 
 export default theme;
